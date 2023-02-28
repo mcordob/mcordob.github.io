@@ -11,4 +11,6 @@ Este proyecto se proporciona tal cual, sin garantía de ningún tipo, ya sea exp
 Cualquier contribución al código fuente será bienvenida, pero deberá cumplir con los términos de la licencia y ser aprobada por el propietario antes de ser incorporada en el proyecto.
 
 Gracias por su interés en este proyecto.
-                                                Si utilizas este codigo por favor darle una ⭐
+<p>
+  <h1 align="center"><b>Si utilizas este codigo por favor darle una ⭐</b></h1>
+</p>
