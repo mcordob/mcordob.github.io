@@ -1,5 +1,5 @@
 # mcordob.github.io
-Este proyecto se encuentra bajo los derechos de autor y es propiedad de [Nombre del propietario o de la organización]. El código fuente es gratuito y puede ser utilizado por cualquier persona con fines educativos y/o de aprendizaje.
+Este proyecto se encuentra bajo los derechos de autor y es propiedad de mcordob. El código fuente es gratuito y puede ser utilizado por cualquier persona con fines educativos y/o de aprendizaje.
 
 Sin embargo, se prohíbe el uso comercial, distribución no autorizada, y/o la venta del código fuente y/o de los productos derivados de este proyecto sin la autorización previa por escrito del propietario.
 
