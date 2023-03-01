@@ -1,420 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viweport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viweport" content="width=device-width, initial-scale=1.0" />
     <title>MCordoba</title>
     <!--css archivos-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skins/color-1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/skins/color-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
     <!--style switcher-->
-    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
-    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
-    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
-    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" 
-    disabled>
-    <link rel="stylesheet" href="css/style-switcher.css">
-</head>
-<body>
-     <!--js Main Comienza-->
-     <div class="main-container">
-         <!--Aside empieza-->
-         <div class="aside">
-            <div class="logo">
-                <a href="#home"><span>M </span>Cordoba</a>
+    <link
+      rel="stylesheet"
+      href="css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+    <link rel="stylesheet" href="css/style-switcher.css" />
+  </head>
+  <body>
+    <!--js Main Comienza-->
+    <div class="main-container">
+      <!--Aside empieza-->
+      <div class="aside">
+        <div class="logo">
+          <a href="#home"><span>M </span>Cordoba</a>
+        </div>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#services"><i class="fa fa-list"></i> Services</a>
+          </li>
+          <li>
+            <a href="#portafolio"><i class="fa fa-briefcase"></i> Portafolio</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!--Aside termina-->
+      <!--Main Contenido empieza-->
+      <div class="main-content">
+        <!--Seccion Home empieza-->
+        <section class="home section" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, my name is <span class="name">Meyel Cordoba</span>
+                </h3>
+                <h3 class="my-profession">
+                  I'm a <span class="typing">Cybersecurity</span>
+                </h3>
+                <p>
+                  I am a Cybersecurity Engineer with multiple academic degrees.
+                  Also, I have 5 years of experience as a programmer and have
+                  several degrees in different programming languages. In
+                  addition to my experience in programming and cybersecurity, I
+                  have skills and knowledge in other areas that complement my
+                  professional profile.
+                </p>
+                <a href="#contact" class="btn hire'me">Hire Me</a>
+              </div>
+              <div class="home-img padd-15">
+                <img src="img/hero.jpg" alt="" />
+              </div>
             </div>
-            <div class="nav-toggler">
-                <span></span>
+          </div>
+        </section>
+        <!--Seccion Home termina-->
+        <!--Seccion about empieza-->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
             </div>
-            <ul class="nav">
-                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-                <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
-                <li><a href="#portafolio"><i class="fa fa-briefcase"></i> Portafolio</a></li>
-                <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
-            </ul>
-         </div>
-         <!--Aside termina-->
-         <!--Main Contenido empieza-->
-         <div class="main-content">
-            <!--Seccion Home empieza-->
-            <section class="home section" id="home">
-                <div class="container">
-                    <div class="row">
-                       <div class="home-info padd-15">
-                        <h3 class="hello">Hello, my name is <span class="name">Meyel Cordoba</span></h3>
-                        <h3 class="my-profession">I'm a <span class="typing">Cybersecurity</span></h3>
-                        <p>I am a Cybersecurity Engineer with multiple academic degrees. Also, I have 5 years of experience as a programmer and have several degrees in different programming languages. In addition to my experience in programming and cybersecurity, I have skills and knowledge in other areas that complement my professional profile.</p>
-                        <a href="#contact" class="btn hire'me">Hire Me</a>
-                       </div>
-                       <div class="home-img padd-15">
-                        <img src="img/hero.jpg" alt="">
-                       </div>
-                    </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>
+                      I'm Meyel Cordoba and
+                      <span>Cybersecurity Engineer | Programmer</span>
+                    </h3>
+                    <p>
+                      I am a person passionate about computers from an early
+                      age. At the age of 14, I bought my first computer and
+                      became interested in programming, although I was initially
+                      intimidated due to my lack of knowledge and my admiration
+                      for "hackers" and their skills. Over time, I discovered an
+                      app called Discord, where I learned about the world of
+                      bots and the possibilities they offered. Thanks to videos
+                      and tutorials, I managed to create my first bot and, over
+                      the years, I have mastered the "discord.js" library, which
+                      I am constantly using and learning from. In fact, it was
+                      there that I first learned to program. A year later, I
+                      decided to study cybersecurity, since I was fascinated by
+                      the idea of ​​protecting companies and doing great things
+                      in the field of information security. Also, thanks to my
+                      ability and skill in handling computers, I decided to
+                      continue exploring and expanding my knowledge in this
+                      field. Why not try it?
+                    </p>
+                  </div>
                 </div>
-            </section>
-            <!--Seccion Home termina-->
-            <!--Seccion about empieza-->
-            <section class="about section" id="about">
-                <div class="container">
+                <div class="row">
+                  <div class="personal-info padd-15">
                     <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>About Me</h2>
-                        </div>
+                      <div class="info-item padd-15">
+                        <p>Birthday : <span>26 may 2004</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age : <span>19</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Website : <span>www.domain.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email : <span>mcc262005@outlook.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Degree : <span>Semi Senior</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Github : <span>https://github.com/mcordob</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Freelance : <span>Available</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone : <span>+504 00000000</span></p>
+                      </div>
                     </div>
                     <div class="row">
-                        <div class="about-content padd-15">
-                            <div class="row">
-                                <div class="about-text padd-15">
-                                    <h3>I'm Meyel Cordoba and <span>Cybersecurity Engineer | Programmer</span></h3>
-                                    <p>I am a person passionate about computers from an early age. At the age of 14, I bought my first computer and became interested in programming, although I was initially intimidated due to my lack of knowledge and my admiration for "hackers" and their skills. Over time, I discovered an app called Discord, where I learned about the world of bots and the possibilities they offered. Thanks to videos and tutorials, I managed to create my first bot and, over the years, I have mastered the "discord.js" library, which I am constantly using and learning from. In fact, it was there that I first learned to program. A year later, I decided to study cybersecurity, since I was fascinated by the idea of ​​protecting companies and doing great things in the field of information security. Also, thanks to my ability and skill in handling computers, I decided to continue exploring and expanding my knowledge in this field. Why not try it?</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="personal-info padd-15">
-                                    <div class="row">
-                                        <div class="info-item padd-15">
-                                            <p>Birthday : <span>26 may 2004</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Age : <span>19</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Website : <span>www.domain.com</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Email : <span>mcc262005@outlook.com</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Degree : <span>Semi Senior</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Github : <span>https://github.com/mcordob</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Freelance : <span>Available</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Phone : <span>+504 00000000</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
-                                            <a href="#contact" class="btn hire-me">Hire Me</a>
-                                            <a href="#https://github.com/mcordob" class="btn GitHub">GitHub</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skills padd-15">
-                                    <div class="row">
-                                        <div class="skill-item padd-15">
-                                            <h5>Node.js</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 95%;"></div>
-                                                <div class="skill-percent">95%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>Discord.js</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 100%;"></div>
-                                                <div class="skill-percent">100%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>Python</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 70%;"></div>
-                                                <div class="skill-percent">70%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>Javascript</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 80%;"></div>
-                                                <div class="skill-percent">80%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>C#</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 65%;"></div>
-                                                <div class="skill-percent">65%</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="education padd-15">
-                                        <h3 class="title">Education</h3>
-                                        <div class="row">
-                                            <div class="timeline-box padd-15">
-                                                <div class="timeline shadow-dark">
-                                                    <!--timeline item-->
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> 2018 - 2023
-                                                        </h3>
-                                                        <h4 class="timeline-title">Programming</h4>
-                                                        <p class="timeline-text">Self-taught, I began to study programming with the aim of obtaining academic degrees. During my cybersecurity training, I gained more skills in different programming languages, including Python, C#, Java, Javascript, and Node, as well as the Discord.js library.</p>
-                                                    </div>
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> 2022 - 2023
-                                                        </h3>
-                                                        <h4 class="timeline-title">Cybersecurity</h4>
-                                                        <p class="timeline-text">During the last years, I have followed the cybersecurity career in person and under the guidance of highly trained professionals in this area. Through a combination of research and effort, I managed to stand out as one of the best in my class.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="experience padd-15">
-                                        <h3 class="title">Experience</h3>
-                                        <div class="row">
-                                            <div class="timeline-box padd-15">
-                                                <div class="timeline shadow-dark">
-                                                    <!--timeline item-->
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> 2018 - 2023
-                                                        </h3>
-                                                        <h4 class="timeline-title">Programming</h4>
-                                                        <p class="timeline-text">In my career as a programmer, I have acquired skills to quickly learn new languages ​​and code flows. Also, I have honed my ability to improve existing code and make sure it is highly professional and efficient.</p>
-                                                    </div>
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> 2022 - 2023
-                                                        </h3>
-                                                        <h4 class="timeline-title">Cybersecurity</h4>
-                                                        <p class="timeline-text">Throughout my professional career, I have gained specialized knowledge and skills in protecting and defending internet devices as well as unauthorized individuals by implementing two-factor authentication. Likewise, I have academic degrees in the field of computer security, which has allowed me to have tools and techniques to guarantee the protection of networks and systems.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                      <div class="buttons padd-15">
+                        <a href="#" class="btn">Download CV</a>
+                        <a href="#contact" class="btn hire-me">Hire Me</a>
+                        <a href="#https://github.com/mcordob" class="btn GitHub"
+                          >GitHub</a
+                        >
+                      </div>
                     </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>Node.js</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 95%"></div>
+                          <div class="skill-percent">95%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Discord.js</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                          <div class="skill-percent">100%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Python</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 70%"></div>
+                          <div class="skill-percent">70%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Javascript</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 80%"></div>
+                          <div class="skill-percent">80%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>C#</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 65%"></div>
+                          <div class="skill-percent">65%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="education padd-15">
+                      <h3 class="title">Education</h3>
+                      <div class="row">
+                        <div class="timeline-box padd-15">
+                          <div class="timeline shadow-dark">
+                            <!--timeline item-->
+                            <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2018 - 2023
+                              </h3>
+                              <h4 class="timeline-title">Programming</h4>
+                              <p class="timeline-text">
+                                Self-taught, I began to study programming with
+                                the aim of obtaining academic degrees. During my
+                                cybersecurity training, I gained more skills in
+                                different programming languages, including
+                                Python, C#, Java, Javascript, and Node, as well
+                                as the Discord.js library.
+                              </p>
+                            </div>
+                            <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2022 - 2023
+                              </h3>
+                              <h4 class="timeline-title">Cybersecurity</h4>
+                              <p class="timeline-text">
+                                During the last years, I have followed the
+                                cybersecurity career in person and under the
+                                guidance of highly trained professionals in this
+                                area. Through a combination of research and
+                                effort, I managed to stand out as one of the
+                                best in my class.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="experience padd-15">
+                      <h3 class="title">Experience</h3>
+                      <div class="row">
+                        <div class="timeline-box padd-15">
+                          <div class="timeline shadow-dark">
+                            <!--timeline item-->
+                            <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2018 - 2023
+                              </h3>
+                              <h4 class="timeline-title">Programming</h4>
+                              <p class="timeline-text">
+                                In my career as a programmer, I have acquired
+                                skills to quickly learn new languages ​​and code
+                                flows. Also, I have honed my ability to improve
+                                existing code and make sure it is highly
+                                professional and efficient.
+                              </p>
+                            </div>
+                            <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2022 - 2023
+                              </h3>
+                              <h4 class="timeline-title">Cybersecurity</h4>
+                              <p class="timeline-text">
+                                Throughout my professional career, I have gained
+                                specialized knowledge and skills in protecting
+                                and defending internet devices as well as
+                                unauthorized individuals by implementing
+                                two-factor authentication. Likewise, I have
+                                academic degrees in the field of computer
+                                security, which has allowed me to have tools and
+                                techniques to guarantee the protection of
+                                networks and systems.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </section>
-            <!--Seccion about termina-->
-            <!--Seccion Services empieza-->
-            <section class="service section" id="services">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Services</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!--item Services empieza-->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-code"></i>
-                                </div>
-                                <h4>Web Desingn</h4>
-                                <p>I am capable of designing fundamental web pages that meet the requirements of your organization or community.</p>
-                            </div>
-                        </div>
-                        <!--item Services termina-->
-                        <!--item Services empieza-->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-laptop-code"></i>
-                                </div>
-                                <h4>Discord bot</h4>
-                                <p>I can develop a custom Discord bot, tailored to the specific needs of your server or community. The bot will include commands with prefix and slash, and will integrate all the necessary features to improve the user experience.</p>
-                            </div>
-                        </div>
-                        <!--item Services termina-->
-                        <!--item Services empieza-->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-shield"></i>
-                                </div>
-                                <h4>Protection</h4>
-                                <p>I am trained to ensure the security of your computer or company, as well as to improve your protection online.</p>
-                            </div>
-                        </div>
-                        <!--item Services termina-->
-                    </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Seccion about termina-->
+        <!--Seccion Services empieza-->
+        <section class="service section" id="services">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Services</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!--item Services empieza-->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>Web Desingn</h4>
+                  <p>
+                    I am capable of designing fundamental web pages that meet
+                    the requirements of your organization or community.
+                  </p>
                 </div>
-            </section>
-            <!--Seccion Services termina-->
-            <!--Seccion Portafolio empieza-->
-            <section class="portafolio section" id="portafolio">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Portafolio</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="portafolio-heading padd-15">
-                            <h2>My last Projects :</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!--Seccion Portafolio  items empieza-->
-                        <div class="portafolio-item padd-15">
-                            <div class="portafolio-item-inner shadow-dark">
-                                <div class="portafolio-img">
-                                    <img src="img/portfolio/portfolio-1.jpg" alt="" id="" href="https://violetevergardenbot.github.io/">
-                                </div>
-                            </div>
-                        </div>
-                        <!--Seccion Portafolio  items termina-->
-                        <!--Seccion Portafolio  items empieza-->
-                        <div class="portafolio-item padd-15">
-                            <div class="portafolio-item-inner shadow-dark">
-                                <div class="portafolio-img">
-                                    <img src="img/portfolio/portfolio-2.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--Seccion Portafolio  items termina-->
-                        <!--Seccion Portafolio  items empieza-->
-                        <div class="portafolio-item padd-15">
-                            <div class="portafolio-item-inner shadow-dark">
-                                <div class="portafolio-img">
-                                    <img src="img/portfolio/portfolio-3.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--Seccion Portafolio  items termina-->
-                        <!--Seccion Portafolio  items empieza-->
-                        <div class="portafolio-item padd-15">
-                            <div class="portafolio-item-inner shadow-dark">
-                                <div class="portafolio-img">
-                                    <img src="img/portfolio/portfolio-4.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--Seccion Portafolio  items termina-->
-                        <!--Seccion Portafolio  items empieza-->
-                        <div class="portafolio-item padd-15">
-                            <div class="portafolio-item-inner shadow-dark">
-                                <div class="portafolio-img">
-                                    <img src="img/portfolio/portfolio-5.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--Seccion Portafolio  items termina-->
-                    </div>
+              </div>
+              <!--item Services termina-->
+              <!--item Services empieza-->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-laptop-code"></i>
+                  </div>
+                  <h4>Discord bot</h4>
+                  <p>
+                    I can develop a custom Discord bot, tailored to the specific
+                    needs of your server or community. The bot will include
+                    commands with prefix and slash, and will integrate all the
+                    necessary features to improve the user experience.
+                  </p>
                 </div>
-            </section>
-            <!--Seccion Portafolio termina-->
-            <!--Seccion contact empieza-->
-            <!--Seccion contact termina-->
-            <section class="contact section" id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Contact Me</h2>
-                        </div>
-                    </div>
-                    <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
-                    <h4 class="contact-sub-title padd-15">Im at your services</h4>
-                    <div class="row">
-                        <!--Contact info empieza-->
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-phone"></i></div>
-                            <h4>Call Us On</h4>
-                            <p>+504 00000000</p>
-                        </div>
-                        <!--Contact info termina-->
-                        <!--Contact info empieza-->
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
-                            <h4>My Discord server</h4>
-                            <p>https://discord.gg/sRbsCKTpDU</p>
-                        </div>
-                        <!--Contact info termina-->
-                        <!--Contact info empieza-->
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-envelope"></i></div>
-                            <h4>Email</h4>
-                            <p>mcc262005@outlook.com</p>
-                        </div>
-                        <!--Contact info termina-->
-                    </div>
-                    <h3 class="contact-title padd-15">Send me an email</h3>
-                    <h4 class="contact-sub-title padd-15">Im very resposive to messages</h4>
-                    <!--contacto form-->
-                    <div class="row">
-                        <div class="contact-form padd-15">
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                   <button type="submit" class="btn">Send Message</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <!--item Services termina-->
+              <!--item Services empieza-->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-shield"></i>
+                  </div>
+                  <h4>Protection</h4>
+                  <p>
+                    I am trained to ensure the security of your computer or
+                    company, as well as to improve your protection online.
+                  </p>
                 </div>
-            </section>
-         </div>
-         <!--Main Contenido termina-->
-     </div>
+              </div>
+              <!--item Services termina-->
+            </div>
+          </div>
+        </section>
+        <!--Seccion Services termina-->
+        <!--Seccion Portafolio empieza-->
+        <section class="portafolio section" id="portafolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Portafolio</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="portafolio-heading padd-15">
+                <h2>My last Projects :</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!--Seccion Portafolio  items empieza-->
+              <div class="portafolio-item padd-15">
+                <div class="portafolio-item-inner shadow-dark">
+                  <div class="portafolio-img">
+                    <img
+                      src="img/portfolio/portfolio-1.jpg"
+                      alt=""
+                      id=""
+                      href="https://violetevergardenbot.github.io/"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!--Seccion Portafolio  items termina-->
+              <!--Seccion Portafolio  items empieza-->
+              <div class="portafolio-item padd-15">
+                <div class="portafolio-item-inner shadow-dark">
+                  <div class="portafolio-img">
+                    <img src="img/portfolio/portfolio-2.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!--Seccion Portafolio  items termina-->
+              <!--Seccion Portafolio  items empieza-->
+              <div class="portafolio-item padd-15">
+                <div class="portafolio-item-inner shadow-dark">
+                  <div class="portafolio-img">
+                    <img src="img/portfolio/portfolio-3.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!--Seccion Portafolio  items termina-->
+              <!--Seccion Portafolio  items empieza-->
+              <div class="portafolio-item padd-15">
+                <div class="portafolio-item-inner shadow-dark">
+                  <div class="portafolio-img">
+                    <img src="img/portfolio/portfolio-4.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!--Seccion Portafolio  items termina-->
+              <!--Seccion Portafolio  items empieza-->
+              <div class="portafolio-item padd-15">
+                <div class="portafolio-item-inner shadow-dark">
+                  <div class="portafolio-img">
+                    <img src="img/portfolio/portfolio-5.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!--Seccion Portafolio  items termina-->
+            </div>
+          </div>
+        </section>
+        <!--Seccion Portafolio termina-->
+        <!--Seccion contact empieza-->
+        <!--Seccion contact termina-->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+            <h4 class="contact-sub-title padd-15">Im at your services</h4>
+            <div class="row">
+              <!--Contact info empieza-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Us On</h4>
+                <p>+504 00000000</p>
+              </div>
+              <!--Contact info termina-->
+              <!--Contact info empieza-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>My Discord server</h4>
+                <p>https://discord.gg/sRbsCKTpDU</p>
+              </div>
+              <!--Contact info termina-->
+              <!--Contact info empieza-->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>mcc262005@outlook.com</p>
+              </div>
+              <!--Contact info termina-->
+            </div>
+            <h3 class="contact-title padd-15">Send me an email</h3>
+            <h4 class="contact-sub-title padd-15">
+              Im very resposive to messages
+            </h4>
+            <!--contacto form-->
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Subject"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        name=""
+                        class="form-control"
+                        id=""
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--Main Contenido termina-->
+    </div>
     <!--Style switcher empieza-->
     <div class="style-switcher">
-        <div class="style-switcher-toggler s-icon">
-            <i class="fas fa-cog fa-spin"></i>
-        </div>
-        <div class="day-night s-icon">
-            <i class="fas "></i>
-        </div>
-        <h4>Theme Colors</h4>
-        <div class="colors">
-            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-        </div>
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
     </div>
     <!--Style switcher termina-->
     <!--js archivos-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="js/script.js"></script>
     <script src="js/style-switcher.js"></script>
-</body>
+  </body>
 </html>
+
+<!-- MC -->
