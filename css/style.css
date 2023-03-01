@@ -699,7 +699,7 @@ h3.my-profession
 }
 .contact .contact-form .form-item .form-control
 {
-    width: 100%;
+    width: 200%;
     height: 50px;
     border-radius: 25px;
     background: var(--bg-black-100);
