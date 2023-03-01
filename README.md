@@ -2,10 +2,10 @@
 
 This is my open source web portfolio, created to share my work and skills with the community. This project is available for free use, but there are certain limitations regarding copyright.
 
-###Copyright
+# Copyright
 All code and content of this project are the property of the original author and are protected by copyright. This includes any designs, images, text, and other visual elements present in this project. Reproduction or distribution of this project is not permitted without explicit permission of the author.
 
-###Free to use
+# Free to use
 This project is available for free use and can be modified and adapted to the individual needs of the user. Users are encouraged to explore the code and use it for their own projects.
 
 # Responsibility
